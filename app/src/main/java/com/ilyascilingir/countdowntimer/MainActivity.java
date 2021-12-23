@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 Toast.makeText(getApplicationContext(), "Done!", Toast.LENGTH_LONG).show();
+                textView.setText("Finished!");
             }
         }.start();
     }
